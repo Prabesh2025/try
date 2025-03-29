@@ -3,7 +3,7 @@ import React from 'react'
 export default function ContactPage() {
   return (
     <div className='bg-gray-100'>
-    <div className=' w-11/12 mx-auto grid grid-cols-2 py-20 '>
+    <div className=' w-11/12 mx-auto grid lg:grid-cols-2 py-20 '>
      
      <div className='space-y-4' >
       
@@ -16,7 +16,7 @@ export default function ContactPage() {
 
         <p className='text-3xl font-semibold opacity-80'>Have a project in mind?<br />
         Let's talk!</p>
-        <p className=' font-medium opacity-50 mt-10'>Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit. Ut elit tellus, luctus nec ullamcorper mattis,<br /> pulvinar dapibus leo.</p>
+        <p className=' font-medium opacity-50 mt-10 lg:mb-0 mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit. Ut elit tellus, luctus nec ullamcorper mattis,<br /> pulvinar dapibus leo.</p>
 
      </div>
 

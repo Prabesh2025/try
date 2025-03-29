@@ -19,7 +19,7 @@ export default function TopNavbar() {
     
        </div>
 
-       <div className='flex items-center gap-5 font-semibold text-sm text-white'>
+       <div className=' hidden sm:flex items-center gap-5 font-semibold text-sm text-white'>
         <p>About Us</p>
         <p>-</p>
         <p>Our Story</p>

@@ -20,16 +20,16 @@ export default function BottomNavbar() {
 
            <div className='flex items-center text-white space-x-10 font-semibold'>
 
-            <NavLink to="/" className='flex items-center gap-1'>Home <ChevronDown size={16} className='mt-1'/></NavLink>
+            <NavLink to="/" className='hidden xl:flex items-center gap-1'>Home <ChevronDown size={16} className='mt-1'/></NavLink>
 
-            <NavLink to="/Lifestyle">Lifestyle </NavLink>
-            <NavLink to="/Features" className='flex items-center gap-1'>Features <ChevronDown size={16} className='mt-1'/></NavLink>
-            <NavLink to="/Post Layout" className='flex items-center gap-1'>Post Layout <ChevronDown size={16} className='mt-1'/></NavLink>
-            <NavLink to="/Contact">Contact</NavLink>
+            <NavLink to="/Lifestyle" className="hidden xl:flex">Lifestyle </NavLink>
+            <NavLink to="/Features" className='  hidden xl:flex items-center gap-1'>Features <ChevronDown size={16} className='mt-1'/></NavLink>
+            <NavLink to="/Post Layout" className='hidden xl:flex items-center gap-1'>Post Layout <ChevronDown size={16} className='mt-1'/></NavLink>
+            <NavLink to="/Contact" className="hidden xl:flex">Contact</NavLink>
             <div className='flex items-center space-x-4'>
-              <Send size={14} className='text-white absolute ml-5' />
+              <Send size={14} className='hidden sm:block text-white absolute ml-5' />
               <NavLink to="/Join-us">
-              <button className='rounded-sm hover:bg-gray-600 duration-500 cursor-pointer bg-red-400 py-2 pl-10 pr-5 text-sm font-semibold'>Join Us</button>
+              <button className='hidden sm:block rounded-sm hover:bg-gray-600 duration-500 cursor-pointer bg-red-400 py-2 pl-10 pr-5 text-sm font-semibold'>Join Us</button>
               </NavLink>
 
               <label class="switch">
@@ -38,9 +38,9 @@ export default function BottomNavbar() {
              </label> 
  
                
-              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4"><path d="M21 38c9.389 0 17-7.611 17-17S30.389 4 21 4S4 11.611 4 21s7.611 17 17 17Z"/><path stroke-linecap="round" d="M26.657 14.343A7.98 7.98 0 0 0 21 12a7.98 7.98 0 0 0-5.657 2.343m17.879 18.879l8.485 8.485"/></g></svg>
+              <svg className='hidden sm:block' xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4"><path d="M21 38c9.389 0 17-7.611 17-17S30.389 4 21 4S4 11.611 4 21s7.611 17 17 17Z"/><path stroke-linecap="round" d="M26.657 14.343A7.98 7.98 0 0 0 21 12a7.98 7.98 0 0 0-5.657 2.343m17.879 18.879l8.485 8.485"/></g></svg>
 
-              <AlignJustify size={36} />
+              <AlignJustify size={36}  />
 
             </div>
            </div>

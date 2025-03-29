@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <div className='bg-gray-800 '>
       
-      <div className='w-11/12 mx-auto grid grid-cols-4 items-start justify-between mt-5 py-16'>
+      <div className='w-11/12 mx-auto grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-start justify-between mt-5 py-16'>
 
               {/* first footer-col */}
            <div className='space-y-6 border-b-3 border-orange-400'>
@@ -93,9 +93,9 @@ export default function Footer() {
             <p className='text-white font-medium opacity-85 space-x-2'>subscribe newsletter to get latest articles</p>
            <div className='mb-20.5'>
             <div className=' flex items-center'>
-             <input type="email" placeholder='Email Address*'  className='text-white opacity-70 border outline-none bg-gray-800 border-gray-700 rounded-4xl py-3.5 px-6 w-98 text-sm hover:shadow-md'  />
+             <input type="email" placeholder='Email Address*'  className='text-white opacity-70 border outline-none bg-gray-800 border-gray-700 rounded-4xl py-3.5 px-6 w-80 2xl:w-98 text-sm hover:shadow-md'  />
              
-             <div className=' flex items-center  absolute ml-70  cursor-pointer '>
+             <div className=' flex items-center  absolute ml-52 2xl:ml-70  cursor-pointer '>
              <Send size={14} className='text-white absolute ml-6' />
               <p className=''>
               <button className='text-white rounded-4xl hover:bg-gray-600 duration-500 cursor-pointer bg-red-400 py-2.5 w-26 pl-6 pr-5 text-sm font-semibold'>Join </button>
@@ -112,7 +112,7 @@ export default function Footer() {
 
       
            
-           <div className='w-11/12 mx-auto flex items-start justify-between -mt-5 py-2'>
+           <div className='w-11/12 mx-auto grid md:flex items-start justify-between -mt-5 py-2'>
 
             <div className='text-white '>
     
@@ -130,7 +130,7 @@ export default function Footer() {
             <div className=' flex flex-col gap-2 text-right'>
               <p className='text-sm text-white'>Follow Us On Socials</p>
 
-              <div className='flex items-center space-x-3 ml-40'>
+              <div className='hidden md:flex items-center space-x-3 ml-40'>
                 <SquareM size={28} className=' text-gray-400 '/>
                 <Instagram size={28} className=' text-gray-400'/>
                 <Twitter size={28} className=' text-gray-400' />
