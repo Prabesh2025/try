@@ -12,6 +12,7 @@ import ContactPage from './components/Pages/ContactPage.jsx';
 import JoinusPage from './components/Pages/JoinusPage.jsx';
 import TryPage from './components/Pages/TryPage.jsx';
 import Footer from './components/Footer.jsx';
+import RegisterPage from './components/Pages/RegisterPage.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -24,10 +25,14 @@ createRoot(document.getElementById('root')).render(
       <Route path="/" element={<App />} />
       <Route path="/Lifestyle" element={<LifestylePage/>} />
       <Route path="/Features" element={<FeaturesPage/>} />
-      <Route path="/Post Layout" element={<PostLayoutPage/>} />
+      <Route path="/login" element={<PostLayoutPage/>} />
+      <Route path="/register" element={<RegisterPage/>} />
       <Route path="/Contact" element={<ContactPage/>} />
       <Route path="/Join-us" element={<JoinusPage/>} />
       <Route path="/try:id" element={<TryPage/>} />
+      
+
+
 
 
 

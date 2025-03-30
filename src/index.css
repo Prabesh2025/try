@@ -69,3 +69,11 @@
   .slider.round:before {
     border-radius: 50%;
   }
+
+  #login_btn{
+  background: linear-gradient(to right, rgb(52, 169, 241),rgb(120, 82, 224),rgb(13, 29, 91));
+   border-radius: 20px;
+  
+
+  }
+   

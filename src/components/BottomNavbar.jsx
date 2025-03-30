@@ -24,7 +24,9 @@ export default function BottomNavbar() {
 
             <NavLink to="/Lifestyle" className="hidden xl:flex">Lifestyle </NavLink>
             <NavLink to="/Features" className='  hidden xl:flex items-center gap-1'>Features <ChevronDown size={16} className='mt-1'/></NavLink>
-            <NavLink to="/Post Layout" className='hidden xl:flex items-center gap-1'>Post Layout <ChevronDown size={16} className='mt-1'/></NavLink>
+          <NavLink to="/login" className='hidden xl:flex items-center gap-1'>Login <ChevronDown size={16} className='mt-1'/></NavLink>
+          <NavLink to="/register" className='hidden xl:flex items-center gap-1'>Register <ChevronDown size={16} className='mt-1'/></NavLink>
+          
             <NavLink to="/Contact" className="hidden xl:flex">Contact</NavLink>
             <div className='flex items-center space-x-4'>
               <Send size={14} className='hidden sm:block text-white absolute ml-5' />
