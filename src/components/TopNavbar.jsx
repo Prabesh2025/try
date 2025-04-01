@@ -23,9 +23,9 @@ export default function TopNavbar() {
        <div className=' flex items-center gap-5 font-semibold text-sm text-white'>
         <NavLink to="/register">About Us</NavLink>
         <p>-</p>
-        <p>Our Story</p>
+        <NavLink to="/login">Login</NavLink>
         <p>-</p>
-        <p>Projects</p>
+        <NavLink to="/contact">Contact</NavLink>
         
        </div>
             

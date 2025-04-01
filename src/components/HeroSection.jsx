@@ -21,7 +21,7 @@ export default function HeroSection() {
       
      <div className=' w-11/12 mx-auto grid lg:flex gap-8 border-b  border-dotted border-gray-400  py-12  '>
       <div >
-       <img src={ballImg} alt="ball"  className='rounded-2xl ml-6 h-40 w-40 object-cover group-hover:scale-110 duration-500' />
+       <img src={ballImg} alt="ball"  className='rounded-2xl ml-6 h-40 w-40 object-cover group-hover:scale-110 duration-500'/>
        </div>
 
        <div className='space-y-4'>
@@ -51,11 +51,11 @@ export default function HeroSection() {
        </div>
 
              {/* 2nd feed  */}
-       <div id="hero" className='mt-10 border-2 border-gray-100 w-11/12 mx-auto rounded-2xl border-l-amber-500 border-l-6 bg-gray-50'>
+       <div id="hero" className='mt-10 border-2 border-gray-100 w-11/12 mx-auto rounded-2xl border-l-amber-500 border-l-6 bg-gray-50  group'>
       
       <div className=' w-11/12 mx-auto grid lg:flex gap-8 border-b  border-dotted border-gray-400  py-10   '>
        <div >
-        <img src={carImg} alt="car"  className='rounded-2xl ml-6 h-40 w-40 object-cover' />
+        <img src={carImg} alt="car"  className='rounded-2xl ml-6 h-40 w-40 object-cover group-hover:scale-110 duration-500'  />
         </div>
  
         <div className='space-y-4'>
@@ -85,11 +85,11 @@ export default function HeroSection() {
         </div>
               
               {/* 3rd feed  */}
-        <div id="hero" className=' mt-10 border-2 border-gray-100 w-11/12 mx-auto rounded-2xl border-l-amber-500 border-l-6 bg-gray-50'>
+        <div id="hero" className=' mt-10 border-2 border-gray-100 w-11/12 mx-auto rounded-2xl border-l-amber-500 border-l-6 bg-gray-50  group'>
       
      <div className=' w-11/12 mx-auto grid lg:flex gap-8 border-b  border-dotted border-gray-400  py-10   '>
       <div >
-       <img src={skateboardImg} alt="skateboard"  className='rounded-2xl ml-6 h-40 w-40 object-cover' />
+       <img src={skateboardImg} alt="skateboard" className='rounded-2xl ml-6 h-40 w-40 object-cover group-hover:scale-110 duration-500' />
        </div>
 
        <div className='space-y-4'>
@@ -120,11 +120,11 @@ export default function HeroSection() {
 
               {/* 4th feed  */}
 
-       <div id="hero" className=' mt-10 border-2 border-gray-100 w-11/12 mx-auto rounded-2xl border-l-amber-500 border-l-6 bg-gray-50'>
+       <div id="hero" className=' mt-10 border-2 border-gray-100 w-11/12 mx-auto rounded-2xl border-l-amber-500 border-l-6 bg-gray-50  group'>
       
      <div className=' w-11/12 mx-auto grid lg:flex gap-8 border-b  border-dotted border-gray-400  py-10   '>
       <div >
-       <img src={helmetImg} alt="helmet"  className='rounded-2xl ml-6 h-40 w-40 object-cover' />
+       <img src={helmetImg} alt="helmet"  className='rounded-2xl ml-6 h-40 w-40 object-cover group-hover:scale-110 duration-500' />
        </div>
 
        <div className='space-y-4'>
@@ -155,11 +155,11 @@ export default function HeroSection() {
             
             {/* 5th feed  */}
 
-       <div id="hero" className='mt-10 border-2 border-gray-100 w-11/12 mx-auto rounded-2xl border-l-amber-500 border-l-6 bg-gray-50'>
+       <div id="hero" className='mt-10 border-2 border-gray-100 w-11/12 mx-auto rounded-2xl border-l-amber-500 border-l-6 bg-gray-50  group'>
       
      <div className=' w-11/12 mx-auto grid lg:flex gap-8 border-b  border-dotted border-gray-400  py-10   '>
       <div >
-       <img src={hatImg } alt="hat"  className='rounded-2xl ml-6 h-40 w-40 object-cover' />
+       <img src={hatImg } alt="hat"  className='rounded-2xl ml-6 h-40 w-40 object-cover group-hover:scale-110 duration-500'/>
        </div>
 
        <div className='space-y-4'>
@@ -190,11 +190,11 @@ export default function HeroSection() {
        </div>
 
            {/* 6th feed  */}
-       <div id="hero" className='mt-10 border-2 border-gray-100 w-11/12 mx-auto rounded-2xl border-l-amber-500 border-l-6 bg-gray-50'>
+       <div id="hero" className='mt-10 border-2 border-gray-100 w-11/12 mx-auto rounded-2xl border-l-amber-500 border-l-6 bg-gray-50  group'>
       
      <div className=' w-11/12 mx-auto grid lg:flex gap-8 border-b  border-dotted border-gray-400  py-10   '>
       <div >
-       <img src={flowerImg} alt="flower"  className='rounded-2xl ml-6 h-40 w-40 object-cover' />
+       <img src={flowerImg} alt="flower" className='rounded-2xl ml-6 h-40 w-40 object-cover group-hover:scale-110 duration-500' />
        </div>
 
        <div className='space-y-4'>
@@ -224,11 +224,11 @@ export default function HeroSection() {
        </div>
 
             {/* 7th feed  */}
-       <div id="hero" className='mt-10 border-2 border-gray-100 w-11/12 mx-auto rounded-2xl border-l-amber-500 border-l-6 bg-gray-50'>
+       <div id="hero" className='mt-10 border-2 border-gray-100 w-11/12 mx-auto rounded-2xl border-l-amber-500 border-l-6 bg-gray-50  group'>
       
      <div className=' w-11/12 mx-auto grid lg:flex gap-8 border-b  border-dotted border-gray-400  py-10   '>
       <div >
-       <img src={cupImg} alt="cup"  className='rounded-2xl ml-6 h-40 w-40 object-cover' />
+       <img src={cupImg} alt="cup"  className='rounded-2xl ml-6 h-40 w-40 object-cover group-hover:scale-110 duration-500' />
        </div>
 
        <div className='space-y-4'>
@@ -258,11 +258,11 @@ export default function HeroSection() {
        </div>
 
              {/* 8th feed  */}
-       <div id="hero" className='mt-10 mb-20 border-2 border-gray-100 w-11/12 mx-auto rounded-2xl border-l-amber-500 border-l-6 bg-gray-50'>
+       <div id="hero" className='mt-10 mb-20 border-2 border-gray-100 w-11/12 mx-auto rounded-2xl border-l-amber-500 border-l-6 bg-gray-50  group'>
       
      <div className=' w-11/12 mx-auto grid lg:flex gap-8 border-b  border-dotted border-gray-400  py-10   '>
       <div >
-       <img src={musicImg} alt="music"  className='rounded-2xl ml-6 h-40 w-40 object-cover' />
+       <img src={musicImg} alt="music" className='rounded-2xl ml-6 h-40 w-40 object-cover group-hover:scale-110 duration-500'/>
        </div>
 
        <div className='space-y-4'>
