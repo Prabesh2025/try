@@ -128,7 +128,7 @@ export default function Footer() {
 
 
             <div className=' flex flex-col gap-2 text-right'>
-              <p className='text-sm text-white'>Follow Us On Socials</p>
+              <p className='text-sm bg-gradient-to-r  from-red-500 to-blue-500 via-pink-500 bg-clip-text text-transparent'>Follow Us On Socials</p>
 
               <div className='hidden md:flex items-center space-x-3 ml-40'>
                 <SquareM size={28} className=' text-gray-400 '/>
