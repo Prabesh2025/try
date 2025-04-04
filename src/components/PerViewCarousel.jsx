@@ -17,7 +17,7 @@ export default function PerViewCarousel() {
     <div>
       <Swiper
        slidesPerView={3}
-        spaceBetween={50}
+        spaceBetween={25}
         
         loop={true}
         autoplay={{
