@@ -8,12 +8,14 @@ import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 
 
+
 export default function BottomNavbar() {
 
   const [isOpen, setIsOpen] = React.useState(false)
   const toggleDrawer = () => {
       setIsOpen((prevState) => !prevState)
   }
+
   return (
     <div className='bg-gray-800'>
       
